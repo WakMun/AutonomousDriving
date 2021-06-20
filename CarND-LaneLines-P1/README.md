@@ -1,12 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -15,7 +8,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image0]: ./test_images_output/solidWhiteCurve_step0_orig.jpg "Original"
+[image1]: ./test_images_output/solidWhiteCurve_step1_gray.jpg "Grayscale"
+[image2]: ./test_images_output/solidWhiteCurve_step2_cann.jpg "Canny"
+[image3]: ./test_images_output/solidWhiteCurve_step3_intrst.jpg "ROI"
+[image4]: ./test_images_output/solidWhiteCurve_step4_hough.jpg "Hough"
+[image5]: ./test_images_output/solidWhiteCurve_step5_weight.jpg "Overlapped"
 
 ---
 
@@ -29,7 +27,12 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
+![alt text][image0]
 ![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
