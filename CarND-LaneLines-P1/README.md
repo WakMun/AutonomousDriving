@@ -23,22 +23,22 @@ My pipeline consisted of 5 steps.
 
 Pictorially the steps can be seen as follows:
 
-**Original Image**
+**Original Image**  
 <img src="./test_images_output/solidWhiteCurve_step0_orig.jpg" width="400" alt="alternate text: Original image">
 
-**Grayscale Image**
+**Grayscale Image**  
 <img src="./test_images_output/solidWhiteCurve_step1_gray.jpg" width="400" alt="alternate text: Grayscale">
 
-**Canny Edges**
+**Canny Edges**  
 <img src="./test_images_output/solidWhiteCurve_step2_cann.jpg" width="400" alt="alternate text: Canny edges">
 
-**Non Interesting Regions Removed**
+**Non Interesting Regions Removed**  
 <img src="./test_images_output/solidWhiteCurve_step3_intrst.jpg" width="400" alt="alternate text: Non interesting regions removed">
 
-**Hough transform**
+**Hough transform**  
 <img src="./test_images_output/solidWhiteCurve_step4_hough.jpg" width="400" alt="alternate text: Hough transform">
 
-**Final Overlapped Image**
+**Final Overlapped Image**  
 <img src="./test_images_output/solidWhiteCurve_step5_weight.jpg" width="400" alt="alternate text: Overlayed final image">
 
 
