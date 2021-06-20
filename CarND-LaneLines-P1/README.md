@@ -8,7 +8,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image0]: ./test_images_output/solidWhiteCurve_step0_orig.jpg "Original"
+[image0]: <img width="400" height="400" src="./test_images_output/solidWhiteCurve_step0_orig.jpg">
 [image1]: ./test_images_output/solidWhiteCurve_step1_gray.jpg "Grayscale"
 [image2]: ./test_images_output/solidWhiteCurve_step2_cann.jpg "Canny"
 [image3]: ./test_images_output/solidWhiteCurve_step3_intrst.jpg "ROI"
@@ -19,7 +19,8 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline 
+
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
@@ -34,6 +35,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ![alt text][image4]
 ![alt text][image5]
 
+### 2. draw_lines() function
 
 ### 2. Identify potential shortcomings with your current pipeline
 
