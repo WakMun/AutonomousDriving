@@ -44,8 +44,8 @@ Pictorially the steps can be seen as follows:
 
 ### 2. draw_lines() function
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function. Instead of drawing all the lines that are found, now I divide the lines which are found into two subsets; left and right on basis of their slopes as follows:
-*Lines with slopes between 0.2 and 0.8 are considered part of left group, and, 
-*lines with slopes -0.2 and -0.8 are considered as part of right group. 
+* Lines with slopes between 0.2 and 0.8 are considered part of left group, and, 
+* lines with slopes -0.2 and -0.8 are considered as part of right group. 
 
 The lines whose slope does not fall in these regions are discarded.
 
